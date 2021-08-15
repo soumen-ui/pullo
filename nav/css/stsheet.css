@@ -1,0 +1,139 @@
+@import "../font/css/all.css";
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+ul {
+	padding:0;
+}
+ul li {
+	list-style-type:none;
+}
+html {
+/*font-size:62.5%;
+	font-size:100%;*/
+	}
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3.3rem;
+    font-weight: 700;
+	color:#000;
+	letter-spacing: 5px;
+	
+}
+h4 {
+	
+	letter-spacing: 5px;
+	
+}
+h5 {
+	font-size: 2.3rem;
+	letter-spacing: 5px;
+	
+}
+
+h6 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	
+}
+
+
+body, p, a, div {
+	font-size: clamp(16px, 1.2rem, 50px) !important;
+
+}
+
+
+a:hover {
+	text-decoration:none;
+}
+a:focus {
+	outline:none;
+}
+.btn:focus {
+	box-shadow:inherit;
+}
+.form-control:focus {
+	box-shadow:inherit;
+}
+
+.nt_chld_aftr li:not(:first-child):after {
+	content: '|';
+	position: absolute;
+	top: 11px;
+	color:#fff;
+	left: 0px;
+	font-size: 25px;
+}
+.nt_chld li:not(:first-child) {
+	margin-left:40px;
+	padding-left:40px;
+}
+
+/**********  sticky nav bar ************/
+
+.navbar {
+	-webkit-transition: all 0.8s ease 0s;
+	transition: all 0.8s ease 0s;
+	padding:30px;
+	font-size:20px;
+	/*background:#0CF;*/
+	height:85px;
+}
+.custicky {
+	position:fixed;
+	top:20px;
+	color:#000;
+	z-index:999999;
+	width:100%;
+	padding:15px 10px;
+	height:50px;
+	margin:0px;
+	z-index:9999999999999999999999999999;
+	opacity:1;
+	/*background:#39F;*/
+}
+.fxd {
+	padding:0px 0px;
+	/*background:red;*/
+	-webkit-transition: all 0.1s ease 0s;
+	transition: all 0.1s ease 0s;
+	color:green;
+	z-index:1;
+}
+.fxd.sticky {
+	top:0px;
+	height:20px;
+	margin-bottom:15px;
+	z-index:1;
+}
+/****** scroll to top button  *****/
+
+.back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display:none;
+}
+/**** slider start *****/
+
+
+
+    .slick-prev:before, .slick-next:before {
+	color: #555a6e;
+}
+
+
+
+
+/******* slider end ********/
+
+
+
+/*==============
+ =============*/
+

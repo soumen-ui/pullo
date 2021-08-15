@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zoxlen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap_v4.css" rel="stylesheet">
+<!--<link rel="stylesheet" type="text/css" href="./css/slick.css">
+<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">-->
+
+
+<!--<link rel="stylesheet" href="css/style.css">-->
+
+
+  
+<link href="css/stsheet.css" rel="stylesheet">
+
+
+
+
+</head>
+<body  id="main">
+<div>   
+<style>
+
+.sticky .nv_wht{display:none;}	
+.fxd.sticky .navbar{
+	background:#000;}	
+.nv_grn{
+	display:none;}
+.sticky .nv_grn{
+	display: block;} 
+	 
+	 .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+ /* left: 0;*/
+ right:0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -22px;
+  right: 25px;
+  font-size: 46px !important;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-right .5s;
+/*  padding: 16px*/;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div class="fxd custicky">
+<nav class="navbar text-right">
+ 
+ 
+  <a href="javascript:void(0)" class="ml-auto" style="font-size:30px;cursor:pointer" onclick="openNav()"><!--&#9776;--><img class="nv_wht" src="images/nvico.png"> 
+  <img class="nv_grn" src="images/nvico_g.png">
+  </a>
+
+</nav>
+
+</div>
+
+<div class="nv_bx"> 
+
+<ul id="mySidenav" class="sidenav">
+ <li> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+ <li> <a href="#">Home </a></li>
+  <li> <a href="#">About Us </a></li>
+<li>  <a href="#">Our Services</a></li>
+<li>  <a href="#">Why Us</a></li>
+ <li> <a href="#">Contact Us</a></li>
+</ul>
+
+
+
+<script>
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginRight = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+}
+
+
+var list = document.getElementsByClassName('insrt_pic_in_bg');
+
+for (var i = 0; i < list.length; i++) {
+  var src = list[i].getAttribute('data-image-src');
+  list[i].style.backgroundImage="url('" + src + "')";
+}
+
+
+</script>
+</div>
+
+ </div>
+
+<div class="banner">
+
+  <div class="position-relative">
+  
+  <img class="img-fluid" src="images/ban.png">
+  
+  
+
+   <a href="#abt_bx" class="scrl_btm"> 
+   <style>
+   	
+.scrl_btm{
+	position: absolute;
+    bottom: 15px;
+	padding-top:25px;
+    left: 0%;
+    height: 80px;
+    overflow: hidden;
+    right: 0;
+	width: 50px;
+    margin: auto;}
+
+html {
+  scroll-behavior: smooth;
+}
+ .stage {
+       
+        display: flex;
+       
+    }
+    .box {
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+       /* height: 200px;*/
+        margin: 0 auto 0 auto;
+        transform-origin: bottom;
+       /* width: 200px;*/
+    }
+    .bounce-5 {
+        animation-name: bounce-5;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-5 {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-100px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        57%  { transform: scale(1,1)    translateY(-7px); }
+        64%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }	
+
+   
+   </style>
+   
+   <div class="stage">
+    <div class="box bounce-5"><img src="images/mse.png"></div>
+   </div>
+ </a>
+
+
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap_v4.js"></script>
+<script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
+
+
+ 
+
+
+<script>
+ 
+</script>
+<!-- script end --> 
+ 
+<script src="js/custom.js"></script>
+
+
+
+
+
+
+
+<script>
+AOS.init({
+ duration: 1200
+});
+
+</script>
+
+</html>

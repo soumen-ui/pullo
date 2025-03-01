@@ -1449,6 +1449,10 @@ background: rgba(var(--dark), 0.5); */
 	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
 }
 
+.nav-link.dropdown-toggle:hover{
+	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
+}
+
 
 	/* .msticky .navbar-nav li:not(:first-child):after {
 	

@@ -1445,7 +1445,7 @@ background: rgba(var(--dark), 0.5); */
 	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
 }
 
-.navbar-collapse.offcanvas-collapse.open .nav-link:focus, .navbar-collapse.offcanvas-collapse.open .navbar-light .navbar-nav .nav-link:hover{
+.navbar-collapse.offcanvas-collapse.open .nav-link:focus, .navbar-collapse.offcanvas-collapse.open .nav-link:hover{
 	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
 }
 

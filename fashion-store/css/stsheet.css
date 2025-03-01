@@ -1449,7 +1449,10 @@ background: rgba(var(--dark), 0.5); */
 	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
 }
 
-.nav-link.dropdown-toggle:hover{
+.nav-link.dropdown-toggle .nav-link:hover{
+	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
+}
+.dropdown-menu.multi-level .nav-link:hover{
 	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
 }
 

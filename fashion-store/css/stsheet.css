@@ -1437,8 +1437,15 @@ background: rgba(var(--dark), 0.5); */
 	width:50%;}
 	
 .msticky .navbar-nav .nav-link{
-	color: rgb( var(--primary_color-r), var(--primary_color-g), var(--primary_color-b) );}
 	
+	
+	 color: rgb( var(--primary_color-r), var(--primary_color-g), var(--primary_color-b) ); 
+}
+.navbar-collapse.offcanvas-collapse.open{
+	color:rgb(var(--secondary_color-r), var(--secondary_color-g), var(--secondary_color-b));
+}
+
+
 	/* .msticky .navbar-nav li:not(:first-child):after {
 	
 	content: '|';	
